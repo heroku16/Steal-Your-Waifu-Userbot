@@ -1,0 +1,24 @@
+{
+    "name": "SYWUB",
+    "description": "Steal your waifu before you blink your eyes",
+    "repository": "https://github.com/pokurt/Steal-Your-Waifu-Userbot",
+    "keywords": ["python", "pyrogram", "telegram", "userbot", "harem"],
+    "image": "heroku/python",
+    "formation": {
+      "worker": {
+        "quantity": 1,
+        "size": "free"
+      }
+    },
+    "env": {
+      "API_ID": {
+        "description": "App api_id from https://my.telegram.org"
+      },
+      "API_HASH": {
+        "description": "App api_hash from https://my.telegram.org"
+      },
+      "USERBOT_SESSION": {
+        "description": "Bot Session, Create from https://repl.it/@SpEcHiDe/GenerateStringSession"
+      }
+    }
+  }
